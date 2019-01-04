@@ -12,6 +12,9 @@
 #import "Runner.h"
 #import "Swimmer.h"
 #import "Footballer.h"
+#import "Animal.h"
+#import "Turtle.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -47,6 +50,29 @@ int main(int argc, const char * argv[]) {
                 [[array objectAtIndex: i] movement];
             }
         }
+        
+        NSLog(@"--------------------TASK #3--------------------");
+        
+        Animal* animal = [[Animal alloc] init];
+        Turtle* turtle = [[Turtle alloc] init];
+        
+        [array addObject:animal];
+        [array addObject:turtle];
+        
+        for (int i = 0; i < [array count]; i++) {
+            if ([[array objectAtIndex: i] isKindOfClass:[Animal class]]) {
+                NSLog(@"%d): %@ - family - %@, species - %@, order - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] family], [[array objectAtIndex: i] species], [[array objectAtIndex: i] order]);
+                
+                [[array objectAtIndex: i] movement];
+            } else {
+                
+                NSLog(@"%d): %@ - name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
+                
+                [[array objectAtIndex: i] movement];
+            }
+        }
+        
+        
     }
     return 0;
 }

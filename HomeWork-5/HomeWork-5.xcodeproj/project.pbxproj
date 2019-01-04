@@ -13,6 +13,8 @@
 		AA3AD05521DF7BDB002B3D6B /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD05421DF7BDB002B3D6B /* Runner.m */; };
 		AA3AD05821DF7BFB002B3D6B /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD05721DF7BFB002B3D6B /* Swimmer.m */; };
 		AA3AD06121DF8223002B3D6B /* Footballer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD06021DF8223002B3D6B /* Footballer.m */; };
+		AA3AD06421DFA154002B3D6B /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD06321DFA154002B3D6B /* Animal.m */; };
+		AA3AD06721DFA382002B3D6B /* Turtle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD06621DFA382002B3D6B /* Turtle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +42,10 @@
 		AA3AD05721DF7BFB002B3D6B /* Swimmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 		AA3AD05F21DF8223002B3D6B /* Footballer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Footballer.h; sourceTree = "<group>"; };
 		AA3AD06021DF8223002B3D6B /* Footballer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Footballer.m; sourceTree = "<group>"; };
+		AA3AD06221DFA154002B3D6B /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		AA3AD06321DFA154002B3D6B /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		AA3AD06521DFA382002B3D6B /* Turtle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Turtle.h; sourceTree = "<group>"; };
+		AA3AD06621DFA382002B3D6B /* Turtle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turtle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 		AA3AD04521DF6DA1002B3D6B /* HomeWork-5 */ = {
 			isa = PBXGroup;
 			children = (
+				AA3AD06221DFA154002B3D6B /* Animal.h */,
+				AA3AD06321DFA154002B3D6B /* Animal.m */,
+				AA3AD06521DFA382002B3D6B /* Turtle.h */,
+				AA3AD06621DFA382002B3D6B /* Turtle.m */,
 				AA3AD04621DF6DA1002B3D6B /* main.m */,
 				AA3AD04D21DF6F1E002B3D6B /* People.h */,
 				AA3AD04E21DF6F1E002B3D6B /* People.m */,
@@ -146,7 +156,9 @@
 				AA3AD04F21DF6F1E002B3D6B /* People.m in Sources */,
 				AA3AD05821DF7BFB002B3D6B /* Swimmer.m in Sources */,
 				AA3AD05521DF7BDB002B3D6B /* Runner.m in Sources */,
+				AA3AD06721DFA382002B3D6B /* Turtle.m in Sources */,
 				AA3AD06121DF8223002B3D6B /* Footballer.m in Sources */,
+				AA3AD06421DFA154002B3D6B /* Animal.m in Sources */,
 				AA3AD05221DF7BA5002B3D6B /* Bicycler.m in Sources */,
 				AA3AD04721DF6DA1002B3D6B /* main.m in Sources */,
 			);

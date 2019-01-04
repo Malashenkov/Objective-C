@@ -1,29 +1,28 @@
 //
-//  People.m
+//  Turtle.m
 //  HomeWork-5
 //
 //  Created by Алексей Малашенков on 04/01/2019.
 //  Copyright © 2019 Алексей Малашенков. All rights reserved.
 //
 
-#import "People.h"
+#import "Turtle.h"
 
-@implementation People
+@implementation Turtle
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.name = @"Aleksey";
-        self.height = 180.f;
-        self.weight = 85.f;
-        self.gender = @"Male";
+        self.family = @"Testudines";
+        self.species = @"Turtle";
+        self.order = @"Testudines";
     }
     return self;
 }
 
 - (void) movement {
-    NSLog(@"%@ started moving", self.name);
+    NSLog(@"%@ moves slow", self.species);
 }
 
 @end
