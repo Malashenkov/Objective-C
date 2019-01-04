@@ -18,7 +18,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSLog(@"--------------------TASK #1--------------------");
+        NSLog(@"<--------------------TASK #1-------------------->");
         
         People* people = [[People alloc] init];
         Bicycler* bicycler = [[Bicycler alloc] init];
@@ -33,25 +33,25 @@ int main(int argc, const char * argv[]) {
             [p movement];
         }
         
-        NSLog(@"--------------------TASK #2--------------------");
+        NSLog(@"<--------------------TASK #2-------------------->");
         
         [array addObject:footballer];
         
         for (int i = [array count] - 1; i >= 0; i--) {
             
             if ([[array objectAtIndex: i] isKindOfClass:[Footballer class]]) {
-                NSLog(@"%d): name - %@, height - %f, weight - %f, gender - %@, club - %@, position - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender], [[array objectAtIndex: i] clubName], [[array objectAtIndex: i] posit]);
+                NSLog(@"%d) name - %@, height - %f, weight - %f, gender - %@, club - %@, position - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender], [[array objectAtIndex: i] clubName], [[array objectAtIndex: i] posit]);
                 
                 [[array objectAtIndex: i] movement];
             } else {
                 
-                NSLog(@"%d): name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
+                NSLog(@"%d) name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
                 
                 [[array objectAtIndex: i] movement];
             }
         }
         
-        NSLog(@"--------------------TASK #3--------------------");
+        NSLog(@"<--------------------TASK #3-------------------->");
         
         Animal* animal = [[Animal alloc] init];
         Turtle* turtle = [[Turtle alloc] init];
@@ -61,17 +61,40 @@ int main(int argc, const char * argv[]) {
         
         for (int i = 0; i < [array count]; i++) {
             if ([[array objectAtIndex: i] isKindOfClass:[Animal class]]) {
-                NSLog(@"%d): %@ - family - %@, species - %@, order - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] family], [[array objectAtIndex: i] species], [[array objectAtIndex: i] order]);
+                NSLog(@"%d) %@ - family - %@, species - %@, order - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] family], [[array objectAtIndex: i] species], [[array objectAtIndex: i] order]);
                 
                 [[array objectAtIndex: i] movement];
             } else {
                 
-                NSLog(@"%d): %@ - name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
+                NSLog(@"%d) %@ - name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] class], [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
                 
                 [[array objectAtIndex: i] movement];
             }
         }
         
+        NSLog(@"<--------------------TASK #4-------------------->");
+        
+        NSArray* peoples = [NSArray arrayWithObjects:people, bicycler, runner, swimmer, footballer, nil];
+        NSArray* animals = [NSArray arrayWithObjects:animal, turtle, nil];
+        
+        NSInteger maxCount = 0;
+        
+        if ([peoples count] > [animals count]) {
+            maxCount = [peoples count];
+        } else {
+            maxCount = [animals count];
+        }
+        
+        for (int i = 0; i < maxCount; i++) {
+            if (i <= ([peoples count] - 1)) {
+                NSLog(@"%@", [peoples objectAtIndex:i]);
+            }
+            if (i <= [animals count] - 1) {
+                NSLog(@"%@", [animals objectAtIndex:i]);
+            }
+        }
+        
+        NSLog(@"<--------------------TASK #5-------------------->");
         
     }
     return 0;
