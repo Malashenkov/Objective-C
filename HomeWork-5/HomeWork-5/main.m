@@ -11,20 +11,41 @@
 #import "Bicycler.h"
 #import "Runner.h"
 #import "Swimmer.h"
-
+#import "Footballer.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
+        NSLog(@"--------------------TASK #1--------------------");
         
         People* people = [[People alloc] init];
         Bicycler* bicycler = [[Bicycler alloc] init];
         Runner* runner = [[Runner alloc] init];
         Swimmer* swimmer = [[Swimmer alloc] init];
+        Footballer* footballer = [[Footballer alloc] init];
         
-        NSArray* array = [NSArray arrayWithObjects:people, bicycler, runner, swimmer, nil];
+        NSMutableArray* array = [NSMutableArray arrayWithObjects:people, bicycler, runner, swimmer, nil];
         
         for (People* p in array) {
             NSLog(@"Name: %@, height: %f, weight: %f, gender: %@", p.name, p.height, p.weight, p.gender);
             [p movement];
+        }
+        
+        NSLog(@"--------------------TASK #2--------------------");
+        
+        [array addObject:footballer];
+        
+        for (int i = [array count] - 1; i >= 0; i--) {
+            
+            if ([[array objectAtIndex: i] isKindOfClass:[Footballer class]]) {
+                NSLog(@"%d): name - %@, height - %f, weight - %f, gender - %@, club - %@, position - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender], [[array objectAtIndex: i] clubName], [[array objectAtIndex: i] posit]);
+                
+                [[array objectAtIndex: i] movement];
+            } else {
+                
+                NSLog(@"%d): name - %@, height - %f, weight - %f, gender - %@", i, [[array objectAtIndex: i] name], [[array objectAtIndex: i] height], [[array objectAtIndex: i] weight], [[array objectAtIndex: i] gender]);
+                
+                [[array objectAtIndex: i] movement];
+            }
         }
     }
     return 0;
