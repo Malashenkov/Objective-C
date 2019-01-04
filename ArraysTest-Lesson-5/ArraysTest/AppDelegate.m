@@ -22,7 +22,7 @@
     
     NSArray* array2 = [NSArray arrayWithObjects:@"String 0", @"String 1", @"String 2", nil];
     
-    NSArray* array3 = @[@"String 0", @"String 1", @"String 2"];
+    NSArray* array3 = @[@"String 0", @"String 1", @"String 2", @"String 3"];
     
     for (int i = 0; i < [array count]; i++) {
         NSLog(@"%d - %@", i, [array objectAtIndex: i]);
