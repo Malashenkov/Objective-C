@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA3AD04721DF6DA1002B3D6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD04621DF6DA1002B3D6B /* main.m */; };
+		AA3AD04F21DF6F1E002B3D6B /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD04E21DF6F1E002B3D6B /* People.m */; };
+		AA3AD05221DF7BA5002B3D6B /* Bicycler.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD05121DF7BA5002B3D6B /* Bicycler.m */; };
+		AA3AD05521DF7BDB002B3D6B /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD05421DF7BDB002B3D6B /* Runner.m */; };
+		AA3AD05821DF7BFB002B3D6B /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3AD05721DF7BFB002B3D6B /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		AA3AD04321DF6DA1002B3D6B /* HomeWork-5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork-5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3AD04621DF6DA1002B3D6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3AD04D21DF6F1E002B3D6B /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		AA3AD04E21DF6F1E002B3D6B /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		AA3AD05021DF7BA5002B3D6B /* Bicycler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bicycler.h; sourceTree = "<group>"; };
+		AA3AD05121DF7BA5002B3D6B /* Bicycler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bicycler.m; sourceTree = "<group>"; };
+		AA3AD05321DF7BDB002B3D6B /* Runner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		AA3AD05421DF7BDB002B3D6B /* Runner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		AA3AD05621DF7BFB002B3D6B /* Swimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		AA3AD05721DF7BFB002B3D6B /* Swimmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				AA3AD04621DF6DA1002B3D6B /* main.m */,
+				AA3AD04D21DF6F1E002B3D6B /* People.h */,
+				AA3AD04E21DF6F1E002B3D6B /* People.m */,
+				AA3AD05021DF7BA5002B3D6B /* Bicycler.h */,
+				AA3AD05121DF7BA5002B3D6B /* Bicycler.m */,
+				AA3AD05321DF7BDB002B3D6B /* Runner.h */,
+				AA3AD05421DF7BDB002B3D6B /* Runner.m */,
+				AA3AD05621DF7BFB002B3D6B /* Swimmer.h */,
+				AA3AD05721DF7BFB002B3D6B /* Swimmer.m */,
 			);
 			path = "HomeWork-5";
 			sourceTree = "<group>";
@@ -118,6 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3AD04F21DF6F1E002B3D6B /* People.m in Sources */,
+				AA3AD05821DF7BFB002B3D6B /* Swimmer.m in Sources */,
+				AA3AD05521DF7BDB002B3D6B /* Runner.m in Sources */,
+				AA3AD05221DF7BA5002B3D6B /* Bicycler.m in Sources */,
 				AA3AD04721DF6DA1002B3D6B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

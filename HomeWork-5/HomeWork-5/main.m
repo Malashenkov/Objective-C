@@ -7,11 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "People.h"
+#import "Bicycler.h"
+#import "Runner.h"
+#import "Swimmer.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        People* people = [[People alloc] init];
+        Bicycler* bicycler = [[Bicycler alloc] init];
+        Runner* runner = [[Runner alloc] init];
+        Swimmer* swimmer = [[Swimmer alloc] init];
+        
+        NSArray* array = [NSArray arrayWithObjects:people, bicycler, runner, swimmer, nil];
+        
+        for (People* p in array) {
+            NSLog(@"Name: %@, height: %f, weight: %f, gender: %@", p.name, p.height, p.weight, p.gender);
+            [p movement];
+        }
     }
     return 0;
 }
