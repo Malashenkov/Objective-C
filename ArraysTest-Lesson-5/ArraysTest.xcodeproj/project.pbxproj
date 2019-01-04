@@ -13,6 +13,8 @@
 		AA1B2AB021DF560000EA0323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1B2AAF21DF560000EA0323 /* Assets.xcassets */; };
 		AA1B2AB321DF560000EA0323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1B2AB121DF560000EA0323 /* LaunchScreen.storyboard */; };
 		AA1B2AB621DF560000EA0323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B2AB521DF560000EA0323 /* main.m */; };
+		AADBABE321DF6622003F49E6 /* ASObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AADBABE221DF6622003F49E6 /* ASObject.m */; };
+		AADBABE621DF67B9003F49E6 /* ASChild.m in Sources */ = {isa = PBXBuildFile; fileRef = AADBABE521DF67B9003F49E6 /* ASChild.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AA1B2AB221DF560000EA0323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1B2AB421DF560000EA0323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1B2AB521DF560000EA0323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AADBABE121DF6622003F49E6 /* ASObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASObject.h; sourceTree = "<group>"; };
+		AADBABE221DF6622003F49E6 /* ASObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASObject.m; sourceTree = "<group>"; };
+		AADBABE421DF67B9003F49E6 /* ASChild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASChild.h; sourceTree = "<group>"; };
+		AADBABE521DF67B9003F49E6 /* ASChild.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASChild.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		AA1B2AA521DF55FF00EA0323 /* ArraysTest */ = {
 			isa = PBXGroup;
 			children = (
+				AADBABE121DF6622003F49E6 /* ASObject.h */,
+				AADBABE221DF6622003F49E6 /* ASObject.m */,
+				AADBABE421DF67B9003F49E6 /* ASChild.h */,
+				AADBABE521DF67B9003F49E6 /* ASChild.m */,
 				AA1B2AA621DF55FF00EA0323 /* AppDelegate.h */,
 				AA1B2AA721DF55FF00EA0323 /* AppDelegate.m */,
 				AA1B2AA921DF55FF00EA0323 /* ViewController.h */,
@@ -141,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADBABE321DF6622003F49E6 /* ASObject.m in Sources */,
 				AA1B2AAB21DF55FF00EA0323 /* ViewController.m in Sources */,
+				AADBABE621DF67B9003F49E6 /* ASChild.m in Sources */,
 				AA1B2AB621DF560000EA0323 /* main.m in Sources */,
 				AA1B2AA821DF55FF00EA0323 /* AppDelegate.m in Sources */,
 			);

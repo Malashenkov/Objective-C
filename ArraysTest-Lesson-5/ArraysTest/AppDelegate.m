@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ASObject.h"
+#import "ASChild.h"
 
 @interface AppDelegate ()
 
@@ -18,22 +20,44 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSArray* array = [[NSArray alloc] initWithObjects:@"String 0", @"String 1", @"String 2", nil];
+//    NSArray* array = [[NSArray alloc] initWithObjects:@"String 0", @"String 1", @"String 2", nil];
+//
+//    NSArray* array2 = [NSArray arrayWithObjects:@"String 0", @"String 1", @"String 2", nil];
+//
+//    NSArray* array3 = @[@"String 0", @"String 1", @"String 2"];
+//
+//    for (int i = 0; i < [array count]; i++) {
+//        NSLog(@"%d - %@", i, [array objectAtIndex: i]);
+//    }
+//
+//    for (int i = [array count] - 1; i >= 0; i--) {
+//        NSLog(@"%d - %@", i, [array objectAtIndex: i]);
+//    }
+//
+//    for (NSString* string in array) {
+//        NSLog(@"%d - %@", [array indexOfObject:string], string);
+//    }
     
-    NSArray* array2 = [NSArray arrayWithObjects:@"String 0", @"String 1", @"String 2", nil];
+    ASObject* obj1 = [[ASObject alloc] init];
+    ASObject* obj2 = [[ASObject alloc] init];
+    ASChild* obj3 = [[ASChild alloc] init];
     
-    NSArray* array3 = @[@"String 0", @"String 1", @"String 2", @"String 3"];
+    obj1.name = @"Object 1";
+    obj2.name = @"Object 2";
+    [obj3 setName:@"Object 3"];
     
-    for (int i = 0; i < [array count]; i++) {
-        NSLog(@"%d - %@", i, [array objectAtIndex: i]);
-    }
+    obj3.lastName = @"Last Name";
     
-    for (int i = [array count] - 1; i >= 0; i--) {
-        NSLog(@"%d - %@", i, [array objectAtIndex: i]);
-    }
+    NSArray* array = [NSArray arrayWithObjects:obj1, obj2, obj3, nil];
     
-    for (NSString* string in array) {
-        NSLog(@"%d - %@", [array indexOfObject:string], string);
+    for (ASObject* obj in array) {
+        NSLog(@"name = %@", obj.name);
+        [obj action];
+        
+        if ([obj isKindOfClass:[ASChild class]]) {
+            ASChild* child = (ASChild*)obj;
+            NSLog(@"last name = %@", child.lastName);
+        }
     }
     
     return YES;
