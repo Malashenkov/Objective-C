@@ -96,6 +96,31 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"<--------------------TASK #5-------------------->");
         
+        NSArray* mixArray = [NSArray arrayWithObjects:people, bicycler, runner, swimmer, footballer, animal, turtle, nil];
+        mixArray = [mixArray sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+            
+            if ([obj1 isKindOfClass:[People class]] && [obj2 isKindOfClass:[People class]]) {
+                
+                return [[(People*)obj1 name] compare:[(People*)obj2 name]];
+                
+            } else if ([obj1 isKindOfClass:[Animal class]] && [obj2 isKindOfClass:[Animal class]]) {
+                
+                return [[(Animal*)obj1 species] compare:[(Animal*)obj2 species]];
+                
+            } else if ([obj1 isKindOfClass:[People class]]) {
+                
+                return NSOrderedAscending;
+                
+            } else {
+                
+                return NSOrderedDescending;
+            }
+        }];
+        
+        for (NSObject* object in mixArray) {
+            NSLog(@"%@", object);
+        }
+        
     }
     return 0;
 }
