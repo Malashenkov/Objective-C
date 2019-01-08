@@ -1,5 +1,5 @@
 //
-//  Сheetah.h
+//  Dog.h
 //  HomeWork-7
 //
 //  Created by Алексей Малашенков on 08/01/2019.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface _heetah : Animal
+@interface Dog : Animal <Jumpers, Swimmers, Runners>
 
 @end
 

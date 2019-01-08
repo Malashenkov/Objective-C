@@ -1,5 +1,5 @@
 //
-//  Animal.h
+//  Sportsman.h
 //  HomeWork-7
 //
 //  Created by Алексей Малашенков on 08/01/2019.
@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Jumpers.h"
+#import "Runners.h"
+#import "Swimmers.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Animal : NSObject
+@interface Sportsman : NSObject
 
 @end
 

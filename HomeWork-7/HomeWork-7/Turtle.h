@@ -1,5 +1,5 @@
 //
-//  Dog.h
+//  Turtle.h
 //  HomeWork-7
 //
 //  Created by Алексей Малашенков on 08/01/2019.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Dog : Animal
+@interface Turtle : Animal <Swimmers, Runners>
 
 @end
 
