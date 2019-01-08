@@ -10,4 +10,20 @@
 
 @implementation Triathlete
 
+-(void) jump {
+    NSLog(@"Triathlete can jump");
+}
+
+-(void) speedUp {
+    NSLog(@"Triathlete can speed up");
+}
+
+-(void) run {
+    NSLog(@"Triathlete can run");
+}
+
+-(void) swimm{
+    NSLog(@"Triathlete can swimm");
+}
+
 @end

@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Jumper : Sportsman <Jumpers>
 
+#pragma mark - Jumpers -
+@property (assign, nonatomic) NSInteger maximumJumpHeight;
+@property (assign, nonatomic) NSInteger numberOfAttempts;
+
+-(void) jump;
+
 @end
 
 NS_ASSUME_NONNULL_END

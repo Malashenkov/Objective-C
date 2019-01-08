@@ -12,6 +12,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Dog : Animal <Jumpers, Swimmers, Runners>
 
+#pragma mark - Jumpers -
+@property (assign, nonatomic) NSInteger maximumJumpHeight;
+@property (assign, nonatomic) NSInteger numberOfAttempts;
+
+-(void) jump;
+
+#pragma mark - Swimmers -
+@property (assign, nonatomic) NSInteger maximumSwimSpeed;
+
+-(void) swimm;
+
+#pragma mark - Runners -
+@property (assign, nonatomic) NSInteger maximumRunSpeed;
+
+-(void) speedUp;
+-(void) run;
+
 @end
 
 NS_ASSUME_NONNULL_END

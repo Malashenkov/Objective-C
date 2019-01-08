@@ -10,4 +10,20 @@
 
 @implementation Cheetah
 
+-(void) jump {
+    NSLog(@"Cheetah can jump");
+}
+
+-(void) speedUp {
+    NSLog(@"Cheetah can speed up");
+}
+
+-(void) run {
+    NSLog(@"Cheetah can run");
+}
+
+-(void) fall {
+    NSLog(@"Cheetah can fall from tree");
+}
+
 @end

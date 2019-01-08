@@ -12,17 +12,12 @@
 
 @required
 
-@property (strong, nonatomic) NSString* name;
 @property (assign, nonatomic) NSInteger maximumJumpHeight;
 @property (assign, nonatomic) NSInteger numberOfAttempts;
 
--(BOOL) winner;
 -(void) jump;
--(void) speedUp;
 
 @optional
--(NSString*) howIsYourFamily;
--(NSString*) howIsYourJob;
 -(void) fall;
 
 @end

@@ -10,4 +10,8 @@
 
 @implementation Jumper
 
+-(void) jump {
+    NSLog(@"Jumper can jump");
+}
+
 @end

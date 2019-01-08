@@ -12,17 +12,13 @@
 
 @required
 
-@property (strong, nonatomic) NSString* name;
 @property (assign, nonatomic) NSInteger maximumRunSpeed;
 
--(BOOL) winner;
 -(void) speedUp;
 -(void) run;
 
 @optional
 
--(NSString*) howIsYourFamily;
--(NSString*) howIsYourJob;
 -(void) stumble;
 
 @end

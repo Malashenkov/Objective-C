@@ -10,4 +10,12 @@
 
 @implementation Runner
 
+-(void) speedUp {
+    NSLog(@"Runner can speed up");
+}
+
+-(void) run {
+    NSLog(@"Runner can run");
+}
+
 @end

@@ -10,4 +10,16 @@
 
 @implementation Kangaroo
 
+-(void) jump {
+    NSLog(@"Kangaroo can jump");
+}
+
+-(void) speedUp {
+    NSLog(@"Kangaroo can speed up");
+}
+
+-(void) run {
+    NSLog(@"Kangaroo can run");
+}
+
 @end

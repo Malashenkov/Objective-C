@@ -10,4 +10,8 @@
 
 @implementation Swimmer
 
+-(void) swimm{
+    NSLog(@"Swimmer can swimm");
+}
+
 @end

@@ -10,7 +10,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Crocodile : Animal <Jumpers, Swimmers, Runners>
+@interface Crocodile : Animal <Swimmers, Runners>
+
+#pragma mark - Swimmers -
+@property (assign, nonatomic) NSInteger maximumSwimSpeed;
+
+-(void) swimm;
+-(void) dive;
+#pragma mark - Runners -
+@property (assign, nonatomic) NSInteger maximumRunSpeed;
+
+-(void) speedUp;
+-(void) run;
 
 @end
 

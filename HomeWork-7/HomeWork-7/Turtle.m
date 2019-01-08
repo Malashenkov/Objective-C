@@ -10,4 +10,19 @@
 
 @implementation Turtle
 
+-(void) speedUp {
+    NSLog(@"Turtle can speed up");
+}
+
+-(void) run {
+    NSLog(@"Turtle can run");
+}
+
+-(void) swimm{
+    NSLog(@"Turtle can swimm");
+}
+
+-(void) stumble {
+    NSLog(@"Turtle can stumble");
+}
 @end

@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Runner : Sportsman <Runners>
 
+#pragma mark - Runners -
+@property (assign, nonatomic) NSInteger maximumRunSpeed;
+
+-(void) speedUp;
+-(void) run;
+
 @end
 
 NS_ASSUME_NONNULL_END

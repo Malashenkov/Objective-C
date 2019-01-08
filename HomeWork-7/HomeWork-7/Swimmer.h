@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Swimmer : Sportsman <Swimmers>
 
+#pragma mark - Swimmers -
+@property (assign, nonatomic) NSInteger maximumSwimSpeed;
+
+-(void) swimm;
+
 @end
 
 NS_ASSUME_NONNULL_END

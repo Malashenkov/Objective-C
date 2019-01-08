@@ -10,4 +10,20 @@
 
 @implementation Crocodile
 
+-(void) speedUp {
+    NSLog(@"Crocodile can speed up");
+}
+
+-(void) run {
+    NSLog(@"Crocodile can run");
+}
+
+-(void) swimm{
+    NSLog(@"Crocodile can swimm");
+}
+
+-(void) dive {
+    NSLog(@"Crocodile can dive");
+}
+
 @end
