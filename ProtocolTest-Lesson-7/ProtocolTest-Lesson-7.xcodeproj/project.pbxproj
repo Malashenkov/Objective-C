@@ -13,6 +13,9 @@
 		AA280BC421E4AB4F007BAD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA280BC321E4AB4F007BAD70 /* Assets.xcassets */; };
 		AA280BC721E4AB4F007BAD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA280BC521E4AB4F007BAD70 /* LaunchScreen.storyboard */; };
 		AA280BCA21E4AB4F007BAD70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA280BC921E4AB4F007BAD70 /* main.m */; };
+		AA280BD221E4ADE5007BAD70 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AA280BD121E4ADE5007BAD70 /* Student.m */; };
+		AA280BD521E4AE2D007BAD70 /* Dancer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA280BD421E4AE2D007BAD70 /* Dancer.m */; };
+		AA280BDB21E4AE7E007BAD70 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA280BDA21E4AE7E007BAD70 /* Developer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		AA280BC621E4AB4F007BAD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA280BC821E4AB4F007BAD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA280BC921E4AB4F007BAD70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA280BD021E4ADE5007BAD70 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		AA280BD121E4ADE5007BAD70 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		AA280BD321E4AE2D007BAD70 /* Dancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dancer.h; sourceTree = "<group>"; };
+		AA280BD421E4AE2D007BAD70 /* Dancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dancer.m; sourceTree = "<group>"; };
+		AA280BD921E4AE7E007BAD70 /* Developer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		AA280BDA21E4AE7E007BAD70 /* Developer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
+		AA280BEF21E4AFFA007BAD70 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 		AA280BB921E4AB4D007BAD70 /* ProtocolTest-Lesson-7 */ = {
 			isa = PBXGroup;
 			children = (
+				AA280BEF21E4AFFA007BAD70 /* Patient.h */,
+				AA280BD021E4ADE5007BAD70 /* Student.h */,
+				AA280BD121E4ADE5007BAD70 /* Student.m */,
+				AA280BD321E4AE2D007BAD70 /* Dancer.h */,
+				AA280BD421E4AE2D007BAD70 /* Dancer.m */,
+				AA280BD921E4AE7E007BAD70 /* Developer.h */,
+				AA280BDA21E4AE7E007BAD70 /* Developer.m */,
 				AA280BBA21E4AB4D007BAD70 /* AppDelegate.h */,
 				AA280BBB21E4AB4D007BAD70 /* AppDelegate.m */,
 				AA280BBD21E4AB4E007BAD70 /* ViewController.h */,
@@ -141,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA280BDB21E4AE7E007BAD70 /* Developer.m in Sources */,
 				AA280BBF21E4AB4E007BAD70 /* ViewController.m in Sources */,
 				AA280BCA21E4AB4F007BAD70 /* main.m in Sources */,
 				AA280BBC21E4AB4D007BAD70 /* AppDelegate.m in Sources */,
+				AA280BD221E4ADE5007BAD70 /* Student.m in Sources */,
+				AA280BD521E4AE2D007BAD70 /* Dancer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
