@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAE29C2A21E75D0E007E8E8B /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE29C2921E75D0E007E8E8B /* Patient.m */; };
+		AAE29C2D21E76047007E8E8B /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE29C2C21E76047007E8E8B /* Doctor.m */; };
 		AAFCE3E821E7575600E81DD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFCE3E721E7575600E81DD7 /* AppDelegate.m */; };
 		AAFCE3EB21E7575600E81DD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFCE3EA21E7575600E81DD7 /* ViewController.m */; };
 		AAFCE3EE21E7575600E81DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFCE3EC21E7575600E81DD7 /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAE29C2821E75D0E007E8E8B /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		AAE29C2921E75D0E007E8E8B /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		AAE29C2B21E76047007E8E8B /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		AAE29C2C21E76047007E8E8B /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		AAFCE3E321E7575500E81DD7 /* DeligatesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeligatesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFCE3E621E7575600E81DD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAFCE3E721E7575600E81DD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,10 @@
 		AAFCE3E521E7575600E81DD7 /* DeligatesTest */ = {
 			isa = PBXGroup;
 			children = (
+				AAE29C2821E75D0E007E8E8B /* Patient.h */,
+				AAE29C2921E75D0E007E8E8B /* Patient.m */,
+				AAE29C2B21E76047007E8E8B /* Doctor.h */,
+				AAE29C2C21E76047007E8E8B /* Doctor.m */,
 				AAFCE3E621E7575600E81DD7 /* AppDelegate.h */,
 				AAFCE3E721E7575600E81DD7 /* AppDelegate.m */,
 				AAFCE3E921E7575600E81DD7 /* ViewController.h */,
@@ -142,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFCE3EB21E7575600E81DD7 /* ViewController.m in Sources */,
+				AAE29C2A21E75D0E007E8E8B /* Patient.m in Sources */,
 				AAFCE3F621E7575600E81DD7 /* main.m in Sources */,
 				AAFCE3E821E7575600E81DD7 /* AppDelegate.m in Sources */,
+				AAE29C2D21E76047007E8E8B /* Doctor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
