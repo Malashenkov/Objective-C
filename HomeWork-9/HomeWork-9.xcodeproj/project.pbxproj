@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA8A217021E78B640096481A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A216F21E78B640096481A /* main.m */; };
+		AA8A217821E7B7E00096481A /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A217721E7B7E00096481A /* Patient.m */; };
+		AA8A217B21E7B7E90096481A /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A217A21E7B7E90096481A /* Doctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		AA8A216C21E78B640096481A /* HomeWork-9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork-9"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A216F21E78B640096481A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8A217621E7B7E00096481A /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		AA8A217721E7B7E00096481A /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		AA8A217921E7B7E90096481A /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		AA8A217A21E7B7E90096481A /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AA8A216F21E78B640096481A /* main.m */,
+				AA8A217621E7B7E00096481A /* Patient.h */,
+				AA8A217721E7B7E00096481A /* Patient.m */,
+				AA8A217921E7B7E90096481A /* Doctor.h */,
+				AA8A217A21E7B7E90096481A /* Doctor.m */,
 			);
 			path = "HomeWork-9";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8A217021E78B640096481A /* main.m in Sources */,
+				AA8A217821E7B7E00096481A /* Patient.m in Sources */,
+				AA8A217B21E7B7E90096481A /* Doctor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
