@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Patient.h"
 #import "Doctor.h"
+#import "BadDoctor.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -35,15 +36,31 @@ int main(int argc, const char * argv[]) {
         
         Doctor* doctor = [[Doctor alloc] init];
         
+        BadDoctor* badDoctor1 = [[BadDoctor alloc] init];
+        BadDoctor* badDoctor2 = [[BadDoctor alloc] init];
+        
         patient1.delegate = doctor;
         patient2.delegate = doctor;
-        patient3.delegate = doctor;
-        patient4.delegate = doctor;
+        patient3.delegate = badDoctor1;
+        patient4.delegate = badDoctor2;
         
+        NSLog(@"<----- Patient %@ ----->", patient1.name);
         NSLog(@"%@ are you ok? %@", patient1.name, [patient1 howAreYou] ? @"Yes" : @"No");
+        NSLog(@"");
+        
+        NSLog(@"<----- Patient %@ ----->", patient2.name);
         NSLog(@"%@ are you ok? %@", patient2.name, [patient2 howAreYou] ? @"Yes" : @"No");
+        NSLog(@"");
+        
+        NSLog(@"<----- Patient %@ ----->", patient3.name);
         NSLog(@"%@ are you ok? %@", patient3.name, [patient3 howAreYou] ? @"Yes" : @"No");
+        NSLog(@"");
+        
+        NSLog(@"<----- Patient %@ ----->", patient4.name);
         NSLog(@"%@ are you ok? %@", patient4.name, [patient4 howAreYou] ? @"Yes" : @"No");
+        NSLog(@"");
+        
+        [doctor report];
         
     }
     return 0;

@@ -15,7 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Doctor : NSObject <PatientDelegate>
 
+@property (strong, nonatomic) NSMutableDictionary* doctorReport;
 
+-(void) report;
 
 @end
 

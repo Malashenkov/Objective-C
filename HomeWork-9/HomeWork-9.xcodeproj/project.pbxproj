@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA55003421EDDED40094FF15 /* BadDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA55003321EDDED40094FF15 /* BadDoctor.m */; };
 		AA8A217021E78B640096481A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A216F21E78B640096481A /* main.m */; };
 		AA8A217821E7B7E00096481A /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A217721E7B7E00096481A /* Patient.m */; };
 		AA8A217B21E7B7E90096481A /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A217A21E7B7E90096481A /* Doctor.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA55003221EDDED40094FF15 /* BadDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadDoctor.h; sourceTree = "<group>"; };
+		AA55003321EDDED40094FF15 /* BadDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadDoctor.m; sourceTree = "<group>"; };
 		AA8A216C21E78B640096481A /* HomeWork-9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork-9"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A216F21E78B640096481A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA8A217621E7B7E00096481A /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				AA8A217721E7B7E00096481A /* Patient.m */,
 				AA8A217921E7B7E90096481A /* Doctor.h */,
 				AA8A217A21E7B7E90096481A /* Doctor.m */,
+				AA55003221EDDED40094FF15 /* BadDoctor.h */,
+				AA55003321EDDED40094FF15 /* BadDoctor.m */,
 			);
 			path = "HomeWork-9";
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA55003421EDDED40094FF15 /* BadDoctor.m in Sources */,
 				AA8A217021E78B640096481A /* main.m in Sources */,
 				AA8A217821E7B7E00096481A /* Patient.m in Sources */,
 				AA8A217B21E7B7E90096481A /* Doctor.m in Sources */,

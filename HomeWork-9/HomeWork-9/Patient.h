@@ -26,9 +26,22 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @protocol PatientDelegate
+
 @required
 - (void) patientFeelsBad:(Patient*) patient;
 - (void) patient:(Patient*) patient hasQuestion:(NSString*) question;
+
+@optional
+typedef enum {
+    Head,
+    Stomach,
+    Leg,
+    Arm,
+    Tooth
+} BodyParts;
+
+@property (assign, nonatomic) BodyParts bodyParts;
+
 @end
 
 NS_ASSUME_NONNULL_END
