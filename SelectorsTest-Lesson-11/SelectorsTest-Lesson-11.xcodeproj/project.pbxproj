@@ -13,6 +13,7 @@
 		AA8C193321F07D9300295301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8C193221F07D9300295301 /* Assets.xcassets */; };
 		AA8C193621F07D9300295301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8C193421F07D9300295301 /* LaunchScreen.storyboard */; };
 		AA8C193921F07D9300295301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C193821F07D9300295301 /* main.m */; };
+		AA8C194121F0914200295301 /* Objects.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8C194021F0914200295301 /* Objects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA8C193521F07D9300295301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8C193721F07D9300295301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8C193821F07D9300295301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8C193F21F0914200295301 /* Objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objects.h; sourceTree = "<group>"; };
+		AA8C194021F0914200295301 /* Objects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AA8C192821F07D9200295301 /* SelectorsTest-Lesson-11 */ = {
 			isa = PBXGroup;
 			children = (
+				AA8C193F21F0914200295301 /* Objects.h */,
+				AA8C194021F0914200295301 /* Objects.m */,
 				AA8C192921F07D9200295301 /* AppDelegate.h */,
 				AA8C192A21F07D9200295301 /* AppDelegate.m */,
 				AA8C192C21F07D9200295301 /* ViewController.h */,
@@ -143,6 +148,7 @@
 			files = (
 				AA8C192E21F07D9200295301 /* ViewController.m in Sources */,
 				AA8C193921F07D9300295301 /* main.m in Sources */,
+				AA8C194121F0914200295301 /* Objects.m in Sources */,
 				AA8C192B21F07D9200295301 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

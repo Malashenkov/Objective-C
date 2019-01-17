@@ -1,18 +1,21 @@
 //
-//  AppDelegate.h
+//  Objects.m
 //  SelectorsTest-Lesson-11
 //
 //  Created by Алексей Малашенков on 17/01/2019.
 //  Copyright © 2019 Алексей Малашенков. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Objects.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@implementation Objects
 
-@property (strong, nonatomic) UIWindow *window;
+- (void) testMethod {
+    NSLog(@"Objects testMethod");
+}
 
-//@property (assign, nonatomic) SEL sel;
+- (NSString*) superSecretText {
+    return @"I have stolen your candy";
+}
 
 @end
-

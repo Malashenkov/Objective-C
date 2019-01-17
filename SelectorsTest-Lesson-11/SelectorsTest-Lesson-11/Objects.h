@@ -1,18 +1,20 @@
 //
-//  AppDelegate.h
+//  Objects.h
 //  SelectorsTest-Lesson-11
 //
 //  Created by Алексей Малашенков on 17/01/2019.
 //  Copyright © 2019 Алексей Малашенков. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface Objects : NSObject
 
-//@property (assign, nonatomic) SEL sel;
+- (void) testMethod;
+
 
 @end
 
+NS_ASSUME_NONNULL_END
