@@ -13,6 +13,7 @@
 		AA1FCEC421F4B592001ADE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1FCEC321F4B592001ADE78 /* Assets.xcassets */; };
 		AA1FCEC721F4B592001ADE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1FCEC521F4B592001ADE78 /* LaunchScreen.storyboard */; };
 		AA1FCECA21F4B592001ADE78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1FCEC921F4B592001ADE78 /* main.m */; };
+		AA7244CE21F4C48A001F8B9E /* Objects.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7244CD21F4C48A001F8B9E /* Objects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA1FCEC621F4B592001ADE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1FCEC821F4B592001ADE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1FCEC921F4B592001ADE78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7244CC21F4C48A001F8B9E /* Objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objects.h; sourceTree = "<group>"; };
+		AA7244CD21F4C48A001F8B9E /* Objects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				AA1FCEBA21F4B591001ADE78 /* AppDelegate.h */,
 				AA1FCEBB21F4B591001ADE78 /* AppDelegate.m */,
+				AA7244CC21F4C48A001F8B9E /* Objects.h */,
+				AA7244CD21F4C48A001F8B9E /* Objects.m */,
 				AA1FCEBD21F4B591001ADE78 /* ViewController.h */,
 				AA1FCEBE21F4B591001ADE78 /* ViewController.m */,
 				AA1FCEC021F4B591001ADE78 /* Main.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				AA1FCEBF21F4B591001ADE78 /* ViewController.m in Sources */,
 				AA1FCECA21F4B592001ADE78 /* main.m in Sources */,
+				AA7244CE21F4C48A001F8B9E /* Objects.m in Sources */,
 				AA1FCEBC21F4B591001ADE78 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
